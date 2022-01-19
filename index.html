@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home |</title>
+		<link rel="shortcut icon" href="#">
+		<link href="recourses/css/main_style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="recourses/js/main.js"></script>
+		<style type="text/css">
+			#container{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-image: url( 'recourses/images/pared.jpg' );
+				background-size: 100% 110%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="hamburger" onclick="menu_appear()">
+			<div id="bar1"></div>
+			<div id="bar2"></div>
+			<div id="bar3"></div>
+		</div>
+		<div id="menu">
+			<!-- VACUUM -->
+			<!-- OPTION1(HOME);OPTION2(CONTÁCTANOS) -->
+			<a href="index.html"><div class="option one">HOME</div></a>
+			<a href="contact_with_me.html"><div class="option two">CONTACTAME</div></a>
+		</div>
+		<div id="container">
+			<div id="participe-button">
+				<button><a href="contact_with_me.html"><strong>Participar GRATIS</strong></a></button>
+			</div>
+			<div id="presenter">
+				<p>Hola, mi nombre es Myron y soy un Web Developer de nivel intermedio y he decedido crear este proyecto para ayudarte con tu pagina web y de paso llenar mi portafolio.</p>
+				<p style="margin-top: 10px;">Puedo convertir <em>TU IDEA</em> en una PAGINA WEB desde ZERO y encima es completamente <strong>GRATIS</strong>.</p>
+			</div>
+		</div>
+		<div id="bg-cover" onclick="menu_disappear()"></div>
+	</body>
+</html>

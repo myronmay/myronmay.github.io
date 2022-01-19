@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+#presenter{
+	color: white;
+	font-size: 40px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	line-height: 50px;
+	margin: 20px;
+	position: absolute;
+	width: 50%;
+	right: 0;
+	text-shadow: 5px 5px 8px white;
+}
+#participe-button{
+	position: absolute;
+	top: 450px;
+	left: 230px;
+	width: 200px;
+	height: 50px;
+}
+#participe-button button{
+	background-image: linear-gradient(to top right, brown, black);
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	box-shadow: 15px 15px 8px black;
+}
+#participe-button a{
+	text-decoration: none;
+	color: white;
+}
+#hamburger{
+	position: absolute;
+	width: 35px;
+	height: 30px;
+	top: 5px;
+	left: 5px;
+	box-shadow: 10px 10px 8px black;
+	z-index: 1;
+}
+#bar1, #bar2, #bar3{
+	width: 100%;
+	height: 23%;
+	background-color: white;
+	top: 0;
+	left: 0;
+}
+#bar1{
+	margin-bottom: 15%;
+	border-radius: 3px 3px 0 0;
+}
+#bar3{
+	margin-top: 15%;
+	border-radius: 0 0 3px 3px;
+}
+
+/* MENU */
+
+#menu{
+	position: absolute;
+	width: 25%;
+	height: 98%;
+	margin-top: 0.4%;
+	background-image: linear-gradient(to top right, brown, black);
+	border-radius: 20px;
+	box-shadow: 10px 10px 8px black;
+	left: -30%;
+	transition: 0.5s;
+	overflow: hidden;
+	z-index: 2;
+}
+#bg-cover{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.8;
+	z-index: 1;
+	position: ;
+}
+
+.option{
+	margin-top: 5px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-image: linear-gradient(to right bottom, white, brown);
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}.option:hover{
+	font-size: 20px;
+}

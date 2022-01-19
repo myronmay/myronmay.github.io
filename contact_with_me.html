@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact |</title>
+		<link rel="shortcut icon" href="#">
+		<link href="recourses/css/contact_form.css" rel="stylesheet" type="text/css">
+		<link href="recourses/css/main_style.css" rel="stylesheet" type="text/css">
+		<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+		<style type="text/css">
+			#container{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-image: url( 'recourses/images/pared.jpg' );
+				background-size: 100% 110%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="hamburger" onclick="menu_appear()">
+			<div id="bar1"></div>
+			<div id="bar2"></div>
+			<div id="bar3"></div>
+		</div>
+		<div id="menu">
+			<!-- VACUUM -->
+			<!-- OPTION1(HOME);OPTION2(CONTÁCTANOS) -->
+			<a href="index.html"><div class="option one">HOME</div></a>
+			<a href="contact_with_me.html"><div class="option two">CONTACTAME</div></a>
+		</div>
+		<div id="container">
+			<!-- CONTACT WITH ME FORM -->
+			<div id="contact_form">
+				<!--Tu nombre, Describe un poco que es lo que quieres, Correo o Numero Telefonico, Enviar-->
+				<input id="form_name" type="text" name="name" placeholder="Tu nombre..." v-model="from_name"><br>
+				<textarea id="form_text" type="text" name="text" placeholder="Describe un poco que es lo que quieres..." v-model="message"></textarea><br>
+				<input id="form_addr" type="text" name="contact_addr" placeholder="Correo o Numero Telefonico..." v-model="contact"><br>
+				<input id="form_send" type="submit" name="send" value="Enviar" @click="enviar">
+			</div>
+			<!--<div class="row">
+                    <div class="col-sm-3 col-sm-offset-3 form-group">
+                        <label>
+                            Nombre:
+                        </label>
+                        <input class="form-control" type="text" v-model="from_name">
+                        </input>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-3 form-group">
+                        <label>
+                            Correo:
+                        </label>
+                        <input class="form-control" type="email" v-model="contact">
+                        </input>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-3 form-group">
+                        <label>
+                            Mensaje:
+                        </label>
+                        <textarea class="form-control" v-model="message">
+                        </textarea>
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-3 text-center">
+                        <button @click="enviar" class="btn btn-success">
+                            Enviar
+                        </button>
+                    </div>
+                </div>-->
+		</div>
+		<div id="bg-cover" onclick="menu_disappear()"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js">
+        </script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript">
+        </script>
+        <script type="text/javascript" src="recourses/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+}
+textarea{
+	resize: none;
+}
+#contact_form{
+	background-image: linear-gradient(to top right, brown, black);
+	position: absolute;
+	right: 13%;
+	top: 8%;
+	width: 33%;
+	height: 80%;
+	border-radius: 10px;
+	box-shadow: 15px 15px 8px black;
+}
+
+#contact_form *{
+	border-radius: 10px;
+}
+#form_name, #form_text, #form_addr{
+	border: 0;
+	border-bottom: white 3px solid;
+	background-color: transparent;
+	padding: 4.5px;
+	color: white;
+	font-size: 13px;
+}
+#form_name:hover, #form_text:hover, #form_addr:hover{
+	/*background-color: black;*/
+	width: 85%;
+	margin-left: 6.5%;
+}
+
+/* 20% 40% 20% 20%  */
+
+#form_name{
+	height: 9%;
+	width: 80%;
+	margin-left: 9%;
+	margin-top: 5%;
+}
+#form_text{
+	height: 19%;
+	width: 80%;
+	margin-left: 9%;
+	margin-top: 15%;
+	box-shadow: 1px 1px 10px white;
+}
+#form_addr{
+	height: 9%;
+	width: 80%;
+	margin-left: 9%;
+	margin-top: 10%;
+}
+#form_send{
+	height: 9%;
+	width: 70%;
+	margin-left: 14%;
+	margin-top: 10%;
+	color: white;
+	font-size: 20px;
+	background-image: linear-gradient(to bottom right, brown, black);
+}
+#form_send:hover{
+	width: 75%;
+	height: 11%;
+	margin-left: 11.5%;
+	margin-top: 9%;
+	font-size: 22px;
+}
