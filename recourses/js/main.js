@@ -3,7 +3,7 @@ function menu_appear(){
 	document.getElementById('bg-cover').style.position = "absolute";
 }
 function menu_disappear(){
-	document.getElementById('menu').style.left = "-30%";
+	document.getElementById('menu').style.left = "-75%";
 	document.getElementById('bg-cover').style.position = "";	
 }
 

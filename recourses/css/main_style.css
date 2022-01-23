@@ -1,33 +1,49 @@
 *{
 	margin: 0;
+	padding: 0;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 a{
 	text-decoration: none;
 }
+#central-elements{
+	position: absolute;
+	z-index: 1;
+}
 #presenter{
+	/*background-color: purple;*/
 	color: white;
 	font-size: 40px;
-	font-family: "Lucida Console", "Courier New", monospace;
 	line-height: 50px;
-	margin: 20px;
-	position: absolute;
-	width: 50%;
-	right: 0;
+	width: 49%;
 	text-shadow: 5px 5px 8px white;
+	float: right;
+	padding-top: 1%;
+}
+#presenter div{
+	/*background-color: green;*/
+	padding: 15px;
 }
 #participe-button{
-	position: absolute;
+	/*position: absolute;
 	top: 450px;
 	left: 230px;
-	width: 200px;
-	height: 50px;
+	width: 14.6%;
+	height: 50px;*/
+	/*background-color: red;*/
+	width: 49%;
+	float: left;
 }
+
+/*#presenter,#participe-button{opacity:0.5;}*/
 #participe-button button{
 	background-image: linear-gradient(to top right, brown, black);
 	border: 0;
 	border-radius: 5px;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 33%;
+	width: 33%;
+	height: 50px;
 	font-size: 20px;
 	box-shadow: 15px 15px 8px black;
 }
@@ -42,7 +58,7 @@ a{
 	top: 5px;
 	left: 5px;
 	box-shadow: 10px 10px 8px black;
-	z-index: 1;
+	z-index: 2;
 }
 #bar1, #bar2, #bar3{
 	width: 100%;
@@ -70,7 +86,7 @@ a{
 	background-image: linear-gradient(to top right, brown, black);
 	border-radius: 20px;
 	box-shadow: 10px 10px 8px black;
-	left: -30%;
+	left: -75%;
 	transition: 0.5s;
 	overflow: hidden;
 	z-index: 2;
@@ -83,7 +99,6 @@ a{
 	z-index: 1;
 	position: ;
 }
-
 .option{
 	margin-top: 5px;
 	width: 100%;
@@ -95,4 +110,55 @@ a{
 	color: black;
 }.option:hover{
 	font-size: 20px;
+}
+
+@media screen and (max-width: 1000px){
+	/* MOBILES */
+	#presenter{
+		/*background-color: purple;*/
+		width: 100%;
+		margin: 0;
+	}
+	#presenter div{
+		/*background-color: green;*/
+		margin: 50px;
+		font-size: 200%;
+		line-height: 100%;
+		text-align: center;
+	}
+	#participe-button{
+		width: 100%;
+	}
+	#participe-button button{
+		margin-top: 10%;
+		width: 60%;
+		height: 150px;
+		font-size: 350%;
+		margin-left: 20%;
+	}
+	#bg-img-cover{
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.5;
+		z-index: 0;
+		position: absolute;
+	}
+	#hamburger{
+		width: 90px;
+		height: 80px;
+		margin: 20px;
+	}
+	#menu{
+		width: 75%;
+	}
+	.option{
+		width: 95%;
+		height: 5%;
+		font-size: 300%;
+		margin-top: 25px;
+		border-radius: 10px;
+	}.option:hover{
+		font-size: 320%;
+	}
 }
