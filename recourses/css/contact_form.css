@@ -6,24 +6,25 @@ textarea{
 	resize: none;
 }
 #contact_form{
-	background-image: linear-gradient(to top right, brown, black);
+	/*background-image: linear-gradient(to top right, brown, black);*/
+	background-color: white;
 	margin-left: 50%;
 	margin-top: 3%;
 	width: 33%;
 	height: 80%;
 	border-radius: 10px;
 	box-shadow: 15px 15px 8px black;
+	border: 1px solid black;
 }
 
 #contact_form *{
 	border-radius: 10px;
 }
 #form_name, #form_text, #form_addr{
-	border: 0;
-	border-bottom: white 3px solid;
+	border: 10px solid black;
 	background-color: transparent;
 	padding: 4.5px;
-	color: white;
+	color: black;
 	font-size: 13px;
 }
 #form_name:hover, #form_text:hover, #form_addr:hover{
@@ -60,7 +61,8 @@ textarea{
 	margin-top: 10%;
 	color: white;
 	font-size: 20px;
-	background-image: linear-gradient(to bottom right, brown, black);
+	/*background-image: linear-gradient(to bottom right, brown, black);*/
+	background-color: black;
 }
 #form_send:hover{
 	width: 75%;
