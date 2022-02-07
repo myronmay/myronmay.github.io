@@ -12,13 +12,13 @@ a{
 }
 #presenter{
 	/*background-color: purple;*/
-	color: black;
-	font-size: 40px;
+	color: white;
+	font-size: 37px;
 	line-height: 50px;
 	width: 49%;
-	text-shadow: 5px 5px 8px black;
+	text-shadow: 5px 5px 8px white;
 	float: right;
-	padding-top: 1%;
+	padding-top: 3%;
 }
 #presenter div{
 	/*background-color: green;*/
@@ -37,21 +37,21 @@ a{
 
 /*#presenter,#participe-button{opacity:0.5;}*/
 #participe-button button{
-	/*background-image: linear-gradient(to top right, brown, black);*/
-	background: white;
+	background-image: linear-gradient(to top right, brown, black);
+	/*background: white;*/
 	border: 0;
 	border-radius: 5px;
 	margin-top: 70%;
 	margin-left: 33%;
-	width: 33%;
-	height: 50px;
+	width: 40%;
+	height: 55px;
 	font-size: 20px;
 	box-shadow: 15px 15px 8px black;
 	border: 1px solid black;
 }
 #participe-button a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 #hamburger{
 	position: absolute;
@@ -65,7 +65,7 @@ a{
 #bar1, #bar2, #bar3{
 	width: 100%;
 	height: 23%;
-	background-color: black;
+	background-color: white;
 	top: 0;
 	left: 0;
 }
@@ -85,8 +85,8 @@ a{
 	width: 25%;
 	height: 98%;
 	margin-top: 0.4%;
-	/*background-image: linear-gradient(to top right, brown, black);*/
-	background-color: white;
+	background-image: linear-gradient(to top right, brown, black);
+	/*background-color: white;*/
 	border-radius: 20px;
 	box-shadow: 10px 10px 8px black;
 	left: -75%;
@@ -110,7 +110,7 @@ a{
 	background-color: black;
 	text-align: center;
 	font-size: 18px;
-	color: white;
+	color: brown;
 }.option:hover{
 	font-size: 20px;
 }
@@ -133,9 +133,9 @@ a{
 		width: 100%;
 	}
 	#participe-button button{
-		margin-top: 10%;
+		margin-top: 8%;
 		width: 60%;
-		height: 150px;
+		height: 160px;
 		font-size: 350%;
 		margin-left: 20%;
 	}
