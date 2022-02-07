@@ -18,7 +18,7 @@ a{
 	width: 49%;
 	text-shadow: 5px 5px 8px white;
 	float: right;
-	padding-top: 3%;
+	/*padding-top: 3%;*/
 }
 #presenter div{
 	/*background-color: green;*/
@@ -121,6 +121,7 @@ a{
 		/*background-color: purple;*/
 		width: 100%;
 		margin: 0;
+		padding-top: 7%;
 	}
 	#presenter div{
 		/*background-color: green;*/
